@@ -19,7 +19,7 @@
 //! high and `$1F` has it low, so requiring it keeps the joystick's port the
 //! joystick's. A machine hosting both still asks the mouse first.
 
-use common_sinclair_zx_spectrum::peripheral::Peripheral;
+use emu198x_bus_sinclair_zx_spectrum::Peripheral;
 
 /// A Kempston mouse button.
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash)]
